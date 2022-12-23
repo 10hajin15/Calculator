@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap');
+
+* {
+  font-family: 'Titillium Web';
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  background-color: #FFFC7F;
+}
+
+header {
+  padding: 5px;
+}
+
+.calculator > div {
+  flex: 0 1 auto;
+  padding: 10px;
+}
+
+.button-close {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: red;
+  border-radius: 50%;
+  margin: 2px;
+  margin-bottom: 0px;
+  padding-top: -35px;
+  padding-bottom: 25px;
+}
+
+.button-close-text {
+  font-size: 15px;
+  color: white;
+}
+
+.output {
+  border-top: 0.5px solid lightgray;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 20px;
+}
+
+.output > span {
+  margin: 15px;
+  font-size: 35px;
+}
+
+.input {
+  border-top: 0.5px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.input button {
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  margin: 2px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.row{
+  display: flex;
+}
+
+.row1, .row2, .row3, .row4 {
+  margin-bottom: 4.22px;
+}
+
+.row5 > button:last-child {
+  width: 110px;
+  border-radius: 35px;
+}
